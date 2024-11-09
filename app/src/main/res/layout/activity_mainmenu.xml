@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainmenu"
+    android:background="@color/lightblue"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/darkblue">
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:backgroundTint="@color/green">
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Appdevlopment"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:backgroundTint="@color/yelloish">
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Web Devlopment"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink">
+
+        <TextView
+            android:id="@+id/mach"
+            android:layout_width="324dp"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Machine Learning"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:backgroundTint="@color/red">
+
+        <TextView
+            android:id="@+id/chain"
+            android:layout_width="200dp"
+            android:layout_height="117dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Block Chain"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/yellow">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Information Security"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="481dp"
+        android:layout_height="422dp"
+        app:srcCompat="@drawable/books" />
+
+
+</LinearLayout>
