@@ -45,9 +45,7 @@ class Mainmenu : AppCompatActivity() {
             val intent = Intent(applicationContext , apppage :: class.java)
             startActivity(intent)
         }
-        btnapp.setOnClickListener{
-            val intent = Intent(applicationContext , apppage :: class.java)
-            startActivity(intent)
+
         }
 
 
